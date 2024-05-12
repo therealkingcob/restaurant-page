@@ -1,1 +1,3 @@
-console.log("working");
+import createPage from './loader'
+
+createPage();
