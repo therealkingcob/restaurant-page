@@ -10,9 +10,23 @@ function createPage() {
 
     firstDiv.appendChild(firstDivContent);
 
-    content.appendChild(firstDiv)
+    content.appendChild(firstDiv);
 
+    const secondDiv = document.createElement("div");
+
+    const secondDivContent = document.createTextNode("Learn the languages of the web");
+
+    secondDiv.appendChild(secondDivContent);
     
+    content.appendChild(secondDiv);
+
+    const thirdDiv = document.createElement("div");
+
+    const thirdDivContent = document.createTextNode("HTML   CSS   JS");
+
+    thirdDiv.appendChild(thirdDivContent);
+
+    content.appendChild(thirdDiv);
 
 }
 
